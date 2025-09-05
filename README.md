@@ -39,6 +39,7 @@ A sleek and responsive **Currency Converter** web application built with **Node.
 <div align="center">
 
 **Conversion Result Display**
+
 ![Result Screenshot](./screenshots/result.png)
 
 </div>
