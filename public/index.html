@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="converter-card">
+            <h1><i class="fas fa-exchange-alt"></i> Currency Converter</h1>
+            <div class="converter-section">
+
+                <!-- Amount input -->
+                <div class="amount-input">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" value="1" min="0.01" step="0.01" placeholder="Enter amount" />
+                </div>
+
+                <!-- Currency selectors with flags -->
+                <div class="currency-selectors">
+
+                    <!-- From currency -->
+                    <div class="currency-input">
+                        <label for="fromCurrency">From</label>
+                        <div class="select-wrapper custom-select" id="fromCurrencyWrapper">
+                            <div class="flag-wrapper">
+                                <img class="flag" id="fromFlag" src="" alt="From Flag" />
+                            </div>
+                            <span class="selected-option" id="fromSelected">USD $</span>
+                            <div class="options-container" id="fromOptions"></div>
+                            <select id="fromCurrency" aria-label="From currency"></select>
+                        </div>
+                    </div>
+
+                    <!-- Swap button -->
+                    <button id="swapButton" class="swap-button" aria-label="Swap currencies">
+                        <i class="fas fa-exchange-alt"></i>
+                    </button>
+
+                    <!-- To currency -->
+                    <div class="currency-input">
+                        <label for="toCurrency">To</label>
+                        <div class="select-wrapper custom-select" id="toCurrencyWrapper">
+                            <div class="flag-wrapper">
+                                <img class="flag" id="toFlag" src="" alt="To Flag" />
+                            </div>
+                            <span class="selected-option" id="toSelected">EUR €</span>
+                            <div class="options-container" id="toOptions"></div>
+                            <select id="toCurrency" aria-label="To currency"></select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Convert button -->
+                <button id="convertButton" class="convert-button" aria-label="Convert currency">
+                    <i class="fas fa-sync-alt"></i> Convert
+                </button>
+
+                <!-- Result -->
+                <div id="result" class="result" aria-live="polite" aria-atomic="true"></div>
+
+            </div>
+
+            <!-- Footer -->
+            <footer>
+            <p>Exchange rates provided by European Central Bank (ECB) reference rates • Updated every hour</p>
+            </footer>
+            <footer style="
+            display: inline-block;
+            padding: 0.6rem 1.5rem; /* reduced height */
+            background: linear-gradient(90deg, #ff2587, #f53555);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
+            border-radius: 12px; /* rounded edges */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: default;
+            text-align: center;
+            ">
+            Made by <span style="
+                cursor: pointer;
+                transition: color 0.3s, transform 0.3s;
+            " onmouseover="this.style.color='#fffacd'; this.style.transform='scale(1.1)';" 
+                onmouseout="this.style.color='#fff'; this.style.transform='scale(1)';">
+                Sagarika
+            </span>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
