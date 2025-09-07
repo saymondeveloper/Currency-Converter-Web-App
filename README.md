@@ -44,7 +44,7 @@ A sleek and responsive **Currency Converter** web application built with **Node.
 
 ## 🚀 Live Demo
 
-Check it out live: [Currency Converter on Render](https://currency-converter-h6r6.onrender.com)
+Check it out live: [Currency Converter on Render](https://currency-converter-h6r6.onrender.com/)
 
 ---
 
