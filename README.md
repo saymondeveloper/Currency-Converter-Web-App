@@ -3,9 +3,6 @@
 ![License](https://img.shields.io/badge/License-ISC-blue.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-v18+-green)
 ![Build](https://img.shields.io/badge/Build-Render-success)
-![GitHub issues](https://img.shields.io/github/issues/Sagarika311/currency-converter)
-![GitHub forks](https://img.shields.io/github/forks/Sagarika311/currency-converter)
-![GitHub stars](https://img.shields.io/github/stars/Sagarika311/currency-converter)
 ![Deployed on Render](https://img.shields.io/badge/Deployed_on-Render-blue)
 
 A sleek and responsive **Currency Converter** web application built with **Node.js** and **Express**, leveraging real-time exchange rates from the **European Central Bank (ECB)**. Easily convert between multiple currencies with country flags, symbols, and a smooth, interactive UI.
